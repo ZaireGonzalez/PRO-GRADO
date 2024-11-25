@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        .option {
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+        .option:hover {
+            background-color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .ventas-table th, .ventas-table td {
+            text-align: left;
+        }
+        .ventas-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Panel de Control</h1>
+    </div>
+    <div class="menu">
+        <div class="option"><p>Ventas</p></div>
+        <div class="option"><p>Inventario</p></div>
+        <div class="option"><p>Peticiones, Quejas o Reclamos</p></div>
+        <div class="option"><p>Proveedores</p></div>
+    </div>
+    <main>
+        <!-- El contenido se cargará aquí según la opción seleccionada -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
